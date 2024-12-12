@@ -196,7 +196,7 @@ function Billing({ selectedUsers, closeModal }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-
+// x?
       if (response.ok) {
         message.success("Emails sent successfully");
         form.resetFields();
